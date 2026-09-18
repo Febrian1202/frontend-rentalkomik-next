@@ -1,7 +1,7 @@
-// components/StatusBadge.tsx
 interface StatusBadgeProps {
   status: string;
 }
+
 function StatusBadge({ status }: StatusBadgeProps) {
   const tampilan: Record<string, { label: string; warna: string }> = {
     available: { label: "Tersedia", warna: "badge-hijau" },

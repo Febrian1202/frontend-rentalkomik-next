@@ -239,3 +239,37 @@ body {
 .kembali-btn:hover {
     background: #374151;
 }
+
+.loading-text {
+    color: #6b7280;
+    font-style: italic;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.error-box {
+    background: #fee2e2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #991b1b;
+}
+.error-box button {
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: #991b1b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}

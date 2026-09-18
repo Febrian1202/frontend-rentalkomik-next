@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LogoutButton from "./LogoutButton";
 
 function Navigasi() {
   return (
@@ -7,6 +8,7 @@ function Navigasi() {
       <Link href="/komik">Komik</Link>
       <Link href="/anggota">Anggota</Link>
       <Link href="/peminjaman">Peminjaman</Link>
+      <LogoutButton />
     </nav>
   );
 }
